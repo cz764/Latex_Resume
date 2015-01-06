@@ -1,0 +1,141 @@
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv 主题
+\moderncvstyle{classic}                        % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
+\moderncvcolor{blue}                          % 选项参数是 ‘blue’ (默认)、‘orange’、‘green’、‘red’、‘purple’ 和 ‘grey’
+%\nopagenumbers{}                             % 消除注释以取消自动页码生成功能
+
+% 字符编码
+\usepackage[utf8]{inputenc}                   % 替换你正在使用的编码
+%\usepackage{CJKutf8}
+
+% 调整页面
+\usepackage[scale=0.9]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % 如果你希望改变日期栏的宽度
+
+% 个人信息
+\firstname{\qquad Kun}
+\familyname{Liu}
+\address{Elmhurst, Queens, New York, NY, 11373}{Mobile: 917-864-1016 Email: kl1885@nyu.edu}                   
+% 可选项、如不需要可删除本行
+%\homepage{https://github.com/liukun1016}                  % 可选项、如不需要可删除本行
+
+%----------------------------------------------------------------------------------
+%            内容
+%----------------------------------------------------------------------------------
+
+\begin{document}
+%\begin{CJK}{UTF8}{gbsn}                       % 详情参阅CJK文件包
+\maketitle
+
+\section{Education}
+\cventry{2013.9---Present}
+{M.S. candidate in Information Systems}
+{Courant Institude of Mathematics, New York University}
+{NY}
+{Expected graduation on Dec. 2015, GPA:3.56}
+{Courses: Advanced Database Systems, Data Mining, Big Data, Production Quality Software, Open Source Tools}
+\cventry{2014.9---12}
+{Online program: ETL for Data Warehouse}
+{University of California, Irvine Extension}
+{CA}
+{GPA:4.0}
+{}
+\cventry{2008---2012}
+{B.A. in Management Information Systems}
+{Beijing Institute of Petrochemical Technology}
+{China}
+{}{}
+
+
+\section{Work Experience}
+\renewcommand{\baselinestretch}{1.0}
+
+\cventry{2014.1---Present}
+{Application Developer Intern}
+{}
+{Information Tech Services, New York University}
+{NY}
+{{Developed data a batch process that extracts projects management and HR data from multiple data sources, transforms data with Java, and loads data by SQL and JDBC into Oracle 11g database on daily process}
+\newline{Designed and created a web application to monitor NYU’s employees, departments and work groups management information with Java EE, Servlet, JSP, Javascript, jQuery, AJAX, and XML}
+}
+
+
+\cventry{2012.7---2012.10}
+{Software Developer Intern}
+{}
+{Beijing Huaxin Haitong Tech Co. Ltd}
+{China}
+{{Accomplished business and information systems requirements analysis and design via communicating with clients}
+\newline
+{Completed database design, modeling and SQL queries in SQL Server, and system’s development by ASP.NET}}
+
+
+
+\section{Project Experience}
+\renewcommand{\baselinestretch}{1.0}
+
+\cventry{2014.12}
+{Yelp Restaurants Data Analysis}
+{Python, Yelp API, Google Map API}
+{}{}
+{
+{Extracted and merged 16k+ restaurants data in NYC from Yelp and Google Map APIs by ETL method}
+\newline{Retrieved 150 millions reviews of restaurants and 15k+ users’ attribute from Yelp by writing a web spider program}
+\newline{Analyzed the distribution and correlation of restaurants, plus used NLTK to find keywords in users' reviews}
+}
+
+\cventry{2014.12}
+{Quroa-like Question-Answer-Vote Platform}
+{Python, Google AppEngine, DataStore, Github}
+{}{}
+{
+{Designed and developed a web application independently that allows users to create, modify, view and vote questions and answers, mark and search questions by tags, and upload images}
+\newline
+{
+{URL: {\href{http://kl1885-ost-14fall.appspot.com/}{kl1885-ost-14fall.appspot.com}}},
+{Github: {\href{http://github.com/liukun1016/OST_Project_14Fall/}{github.com/liukun1016/OST\_Project\_14Fall}}}
+}
+}
+
+
+\cventry{2014.11}
+{Distributed Database with Multi-version Concurrency and Recovery}
+{Java, Ecplise}
+{}{}
+{{Implemented database’s concurrency by a multi-version consistency algorithm, deadlock avoidance by Wait-die protocol and Two Phase Locking, and system recovery from failures by available replication algorithm}
+\newline{Realized this database with 10 sites and 20 data items unevenly distributed, and passed 95\% of the 20 test cases}
+}
+
+\cventry{2014.11}
+{ETL Designing for Northwind Datawarehouse}
+{SQL Server, Visual Studio, SSIS/SSDT}
+{}{}
+{{Created data profile and source/target map, and intermediate Extract, Clean, Error, Update and Insert tables}
+\newline{Designed multiple ETL work flows, e.g. customer, product, order and order line data for Northwind DW}
+}
+
+\cventry{2012.5}
+{Cloth Material Info Management Systems}
+{C\#, SQL Server, Visual Studio}
+{}{}
+{{Analyzed use case and work flow, e.g. vendors, inventory, warehouse, and etc. with abstract factory design model}
+\newline{Finished database design and modeling in MS SQL Server and system development with C\# independently}
+\newline{Honored as one of the two Undergraduate Graduate Execellence Project \& Thesis of the entire department}
+}
+
+
+\section{Tehcnical Skills}
+\cventry{Programming}{Proficient: SQL, Java Core, Python, Unix Shell script; Basic: C++, Java EE, Javascript, jQuery, AJAX, HTML, CSS, LaTex}{}{}{}{}
+\cventry{Tools \& IDE}{MySQL, Oracle 11g, SQL Server, Eclipse, JDeveloper, Visual Studio, Visio, Sublime, Github}{}{}{}{}
+
+\section{Publications}
+\cventry{2014.3}{\textbf{Kun Liu}\textnormal{,Teresa
+Piliouras, Yiwei Jia, Pui Lam Yu, Qian Zeng, Jeanne Lauer, Maigh Attre and Julie Ortiz}}{Others may see someone eating a cookie - I see the start of a protein kinase cascade reaction}{IEEE ISEC Conference 2014}{DOL:10.1109/ISECon.2014.6891042}{}
+
+\renewcommand{\baselinestretch}{1.0}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+%\clearpage\end{CJK}
+\end{document}
