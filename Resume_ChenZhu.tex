@@ -12,8 +12,8 @@
 %\usepackage{CJKutf8}
 
 % 调整页面
-\usepackage[scale=0.9]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}           % 如果你希望改变日期栏的宽度
+\usepackage[scale=0.88]{geometry}
+\setlength{\hintscolumnwidth}{2.0cm}           % 如果你希望改变日期栏的宽度
 
 % hyperlinks
 % \usepackage{hyperref}
@@ -21,7 +21,7 @@
 % 个人信息
 \firstname{\qquad Chen}
 \familyname{Zhu}
-\address{342 East 53rd St, 6C, New York, NY, 10022}
+\address{New York, NY, 10022}
 \phone{Mobile: 917-684-1583} 
 \email{Email: xzzhuchen@gmail.com}
 % 可选项、如不需要可删除本行
@@ -35,22 +35,9 @@
 %\begin{CJK}{UTF8}{gbsn}                       % 详情参阅CJK文件包
 \maketitle
 
-\section{Education}
-\cventry{Aug.2013 - May.2015}
-{M.S. in Information Systems}
-{Courant Institute of Mathematics, New York University}
-{NY}{GPA:3.75}
-{Courses: Fundamental Algorithms, Foundation of Finance, Social Multiplayer Games, Open Source Tools.}
-\cventry{Sep.2009 - Jun.2013}
-{B.S. in Management Information Systems}
-{Renmin University of China}
-{Beijing, China}
-{GPA:3.65}
-{Courses: Java Programming, Database Management, Knowledge Management.}
-
 \section{Technology Skills}
-\cventry{Programming}{Java, Python, Linux Commands, C\#, SQL, C++}{}{}{}{}
-\cventry{Web}{JavaScript, NodeJS, AngularJS, jQuery, AJAX, PHP, HTML, CSS}{}{}{}{}
+\cventry{Web}{JavaScript(Proficient), AngularJS, NodeJS, AJAX, HTML, CSS}{}{}{}{}
+\cventry{Programming}{Java(Proficient), Python, Linux Shell, SQL}{}{}{}{}
 \cventry{Tools \& IDE}{JIRA, Git, VS Code, Eclipse, Virtual Box, Sublime, Vim}{}{}{}{}
 
 
@@ -71,21 +58,38 @@
 % 	\newline
 % 	{Fixed front-end web application bugs timely.}
 % }
-\cventry{Jul.2017 - Present}
-{AVP - Web Developer}
-{ICE Bonds}
+\cventry{Apr.2019 - Present}
+{Full Stack Developer}
+{Intercontinental Exchange}
 {Financial Industry}
 {New York}
 {
-	{Investigating and research production issues tracked by tickets.}
+	{Investigating and research production issues provided quick and accurate resolutions.}
 	\newline
-	{Using linux commandline for build, deploy and CI.}
+	{Programming \textbf{Javascript} and Java projects meet deliverables quality.}
 	\newline
-	{Styling front-end web pages for better user experience.}
+	{Styling front-end web pages resulting in better user experience.}
 	\newline
-    {Participating in project scope definition meetings to better design system.}
+    {Participating spec design meetings to provide accurate estimations.}
     \newline
     {Mentoring new developers.}
+}
+
+\cventry{Jul.2017 - Apr.2019}
+{Full Stack Developer}
+{TMC Bonds}
+{Financial Industry}
+{New York}
+{
+	{Researched production issues resulting in strong support on client services.}
+	\newline
+	{Used \textbf{SDLC} tools such as Jira for high efficiency coding.}
+	\newline
+	{Styled front-end web pages for better user experience.}
+	\newline
+	{Joined project scope definition meetings to provide agile design on system.}
+	\newline
+	{Developped new market search result page with better data structure.}
 }
 
 \cventry{Jul.2015 - Jul.2017}
@@ -94,17 +98,22 @@
 {Financial Industry}
 {New York}
 {
+	{Programmed \textbf{ExtJs 6.0} front end projects learnt most of framework.}
+	\newline
+	{Used Linux command lines to conduct SDLC tasks.}
+	\newline
+	{Developped first Trade Blotter page with new design.}
 }
 
 \section{Project Experience}
 \renewcommand{\baselinestretch}{1.25}
 
-\cventry{Dec.2018 - Present}
+\cventry{Dec.2018 - Jun.2019}
 {6.0 Post A Bid Wanted}
 {Java, JavaScript, CSS}
 {}{}
 {
-	{Upgraded trader's Bid Wanted creation system with ExtJS 6.0 library.}
+	{Upgraded trader's \textbf{Bid Wanted} creation system with ExtJS 6.0 library.}
 	\newline
 	{Debugged client-side web components with new Bid Wanted view and controller.}
 	\newline
@@ -120,7 +129,7 @@
 {
 	{Coded retail trader's fill order ticket using ExtJS 6.0 library.}
 	\newline
-	{Debugged on front-end code writting in MVVC framework.}
+	{Debugged on front-end code writting in \textbf{MVVC} framework.}
 	\newline
 	{Refactored edit ticket and fill ticket for integrated functionality.}
 	\newline
@@ -132,7 +141,7 @@
 {Javascript, Java}
 {}{}
 {
-	{Learned internal TSA model in order to provide more accurate data binding.}
+	{Learned internal TSA model in order to provide more accurate \textbf{data binding}.}
 	\newline
 	{Coded components such as clearing and settlement panel, buy as user panel and price change window.}
 	\newline
@@ -165,31 +174,58 @@
 	{Optimized UI to better allow user set credentials.}
 }
 
-% \cventry{Sep.2016 - Nov.2016}
-% {6.0 Security Master Override}
-% {Javascript, Java}
-% {}{}
-% {
-% 	{Designed user interface using MVVC framework.}
-% 	\newline
-% 	{Implemented the view, controller and view model with SM override new theme screen.}
-% 	\newline
-% 	{Maintained the back-end saving override service calls.}
-% }
+\cventry{Sep.2016 - Nov.2016}
+{6.0 Security Master Override}
+{Javascript, Java}
+{}{}
+{
+	{Designed user interface using MVVC framework.}
+	\newline
+	{Implemented the view, controller and view model with SM override new theme screen.}
+	\newline
+	{Maintained the back-end saving override service calls.}
+}
 
-% \cventry{Dec.2015 - Jun.2016}
-% {6.0 Trade Blotter}
-% {Javascript, Java}
-% {}{}
-% {
-% 	{Developed institutional trade detail ticket using ExtJS 6.0.}
-% 	\newline
-% 	{Establish store loading and data binding process on entire project.}
-% 	\newline
-% 	{Researched ExtJS data binding technique for cleaner code.}
-% }
+\cventry{Dec.2015 - Jun.2016}
+{6.0 Trade Blotter}
+{Javascript, Java}
+{}{}
+{
+	{Developed institutional trade detail ticket using ExtJS 6.0.}
+	\newline
+	{Establish store loading and data binding process on entire project.}
+	\newline
+	{Researched ExtJS data binding technique for cleaner code.}
+}
 
-% \renewcommand{\baselinestretch}{1.25}
+\renewcommand{\baselinestretch}{1.25}
+
+\cventry{Jul.2015 - Nov.2015}
+{Security Master Screen}
+{Javascript, Java}
+{}{}
+{
+	{Designed a template for security master page.}
+	\newline
+	{Styled Security Master page to be fully screen and neat aligned.}
+	\newline
+	{Studied ExtJS 3.0 library.}
+}
+
+\renewcommand{\baselinestretch}{1.25}
+
+\section{Education}
+\cventry{Aug.2013 - May.2015}
+{M.S. in Information Systems}
+{Courant Institute of Mathematics, NYU}
+{}{\textbf{GPA:3.75}}
+{Courses: Algorithms, Social Multiplayer Games, Open Source Tools.}
+\cventry{Sep.2009 - Jun.2013}
+{B.S. in Management Information Systems}
+{Renmin University of China}
+{Beijing, China}
+{}
+{Courses: Java, Database, Knowledge Management.}
 
 \closesection{}                   % needed to renewcommands
 \renewcommand{\listitemsymbol}{-} % change the symbol for lists
