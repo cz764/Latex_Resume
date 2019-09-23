@@ -15,6 +15,7 @@
 \usepackage[scale=0.88]{geometry}
 \setlength{\hintscolumnwidth}{2.0cm}           % 如果你希望改变日期栏的宽度
 
+\usepackage{soul}
 % hyperlinks
 % \usepackage{hyperref}
 
@@ -22,8 +23,8 @@
 \firstname{\qquad Chen}
 \familyname{Zhu}
 \address{New York, NY, 10022}
-\phone{Mobile: 917-684-1583} 
-\email{Email: xzzhuchen@gmail.com}
+\phone{917-684-1583} 
+\email{xzzhuchen@gmail.com}
 % 可选项、如不需要可删除本行
 % \homepage{chenzhu.github.io}                  % 可选项、如不需要可删除本行
 
@@ -34,6 +35,8 @@
 \begin{document}
 %\begin{CJK}{UTF8}{gbsn}                       % 详情参阅CJK文件包
 \maketitle
+
+Full stack developer with \textbf{4+} year experience seeking front-end role with \textbf{UX} design career path.
 
 \section{Technology Skills}
 \cventry{Web}{JavaScript(Proficient), AngularJS, NodeJS, AJAX, HTML, CSS}{}{}{}{}
@@ -59,172 +62,95 @@
 % 	{Fixed front-end web application bugs timely.}
 % }
 \cventry{Apr.2019 - Present}
-{Full Stack Developer}
-{Intercontinental Exchange}
+{\hl{Full Stack Developer}}
+{\textbf{Intercontinental Exchange}}
 {Financial Industry}
 {New York}
 {
-	{Investigating and research production issues provided quick and accurate resolutions.}
-	\newline
-	{Programming \textbf{Javascript} and Java projects meet deliverables quality.}
-	\newline
-	{Styling front-end web pages resulting in better user experience.}
-	\newline
-    {Participating spec design meetings to provide accurate estimations.}
-    \newline
-    {Mentoring new developers.}
+	\begin{itemize}
+	  \item{Programmed \hl{\textbf{JavaScript}} and \textbf{Java} projects and deliverables exceed 80\% pass in QA.}
+	  \item{Investigated and research \textbf{production} issues with quick and reasonable solutions.}
+    \item{Developed as key member on \hl{\textbf{10+}} projects resulting in significant business improvement.}
+    \begin{itemize}
+      \item{New post Bid Wanted project with a majority of user satisfaction.}
+      \item{New Fill Order ticket project that leads to a third increase of order numbers.}
+      \item{New Institution Trade ticket project that contributes to 20\% business revenue.}
+    \end{itemize}
+    \item{Refactored server side code of search data structure noticeable increase of search \textbf{performance}.}
+    \item{Contributed to 10\% of the growth in terms of shared repository \textbf{code quality}.}
+    \item{Established front and back end data loading schema in order to resolve asynchronous store loading issue.}
+    \item{Participated in spec meetings to advice better \textbf{user experience} design.}
+    \item{Provided project estimations with more than half accuracy.}
+    \item{Mentored new developers and interns.}
+	\end{itemize}
 }
 
 \cventry{Jul.2017 - Apr.2019}
-{Full Stack Developer}
-{TMC Bonds}
+{\hl{Associate VP Web Developer}}
+{\textbf{TMC Bonds}}
 {Financial Industry}
 {New York}
 {
-	{Researched production issues resulting in strong support on client services.}
-	\newline
-	{Used \textbf{SDLC} tools such as Jira for high efficiency coding.}
-	\newline
-	{Styled front-end web pages for better user experience.}
-	\newline
-	{Joined project scope definition meetings to provide agile design on system.}
-	\newline
-	{Developped new market search result page with better data structure.}
+  \begin{itemize}
+    \item{Implemented client facing security related \textbf{API} projects that covered half of sensitive report data usage.}
+	  \item{\textbf{Styled} front-end web pages resulting in 90\% user satisfaction.}
+	  \item{Debugged program on both back-end Java side and front-end browser side.}
+	  \item{Brainstormed with developers across teams and settled important agreement of smoother implementation.}
+	  \item{Queried database using \textbf{SQL} for seamless data feeding.}
+	  \item{Used \textbf{SDLC} tools such as \textbf{JIRA} for high efficiency project tracking.}
+	  \item{Documented 90\% projects in internal record system for future maintenance.}
+	  \item{Communicated with tech member from clients side to ensure product design precision.}
+	  \item{Customized \textbf{UI} to help clarify user navigations.}
+	\end{itemize}
 }
 
 \cventry{Jul.2015 - Jul.2017}
-{Associate - Web Developer}
-{TMC Bonds}
+{\hl{Web Developer}}
+{\textbf{TMC Bonds}}
 {Financial Industry}
 {New York}
 {
-	{Programmed \textbf{ExtJs 6.0} front end projects learnt most of framework.}
-	\newline
-	{Used Linux command lines to conduct SDLC tasks.}
-	\newline
-	{Developped first Trade Blotter page with new design.}
+	\begin{itemize}
+    \item{Studied \hl{\textbf{ExtJS}} library in 2 months and able to use major components from API.}
+    \item{Adopted new web developing concept of \textbf{MVVM} framework that used to enable easy data binding.}
+    \item{Used Linux shell script and command line for \textbf{CI} build.}
+    \item{Learnt \textbf{Git} version control more advanced feature such as branching, rebasing and cherry-picking.}
+    \item{Triaged failure and unstableness of continuous integration with \textbf{Jenkins} log.}
+    \item{Tested project based on real world business cases and ensured 80\% pass.}
+    \item{Wrote \textbf{Unit Test} cases and upgraded coverage rate of 10\%.}
+	\end{itemize}
 }
 
-\section{Project Experience}
-\renewcommand{\baselinestretch}{1.25}
+% \section{Project Experience}
+% \renewcommand{\baselinestretch}{1.25}
 
-\cventry{Dec.2018 - Jun.2019}
-{6.0 Post A Bid Wanted}
-{Java, JavaScript, CSS}
-{}{}
-{
-	{Upgraded trader's \textbf{Bid Wanted} creation system with ExtJS 6.0 library.}
-	\newline
-	{Debugged client-side web components with new Bid Wanted view and controller.}
-	\newline
-	{Refactored server side Bid Wanted services in Java.}
-	\newline
-	{Tested the Bid Wanted scenario ensured 90\% success rate.}
-}
-
-\cventry{Jan.2018 - Jul.2018}
-{6.0 Fill Order Ticket}
-{Java, JavaScript, CSS}
-{}{}
-{
-	{Coded retail trader's fill order ticket using ExtJS 6.0 library.}
-	\newline
-	{Debugged on front-end code writting in \textbf{MVVC} framework.}
-	\newline
-	{Refactored edit ticket and fill ticket for integrated functionality.}
-	\newline
-	{Tested the fill order scenario ensured 90\% success rate.}
-}
-
-\cventry{Jan.2016 - Dec.2017}
-{6.0 Order Ticket, IMS, 6.0 Institutional Trader Ticket}
-{Javascript, Java}
-{}{}
-{
-	{Learned internal TSA model in order to provide more accurate \textbf{data binding}.}
-	\newline
-	{Coded components such as clearing and settlement panel, buy as user panel and price change window.}
-	\newline
-	{Tested trader's work flow to ensure business behavior consistency.}
-}
-
-\cventry{Feb.2017 - Dec.2017}
-{6.0 Market Search}
-{JavaScript, Java}
-{}{}
-{
-	{Implemented new user interface market snapshot page using ExtJS 6.0 library.}
-	\newline
-	{Teamed with other developers for better effective code.}
-	\newline
-	{Designed front-end column models using generic components.}
-	\newline
-	{Refactored back-end market search logic to more organized data structure.}
-}
-
-\cventry{Dec.2016 - Feb.2017}
-{Ticket Report - Moody and MuniPoints Encryption API Update}
-{Java, Javascript}
-{}{}
-{
-	{Implemented encryption link generate system on server side.}
-	\newline
-	{Made web request on Java side to get encryption key calling Moody API.}
-	\newline
-	{Optimized UI to better allow user set credentials.}
-}
-
-\cventry{Sep.2016 - Nov.2016}
-{6.0 Security Master Override}
-{Javascript, Java}
-{}{}
-{
-	{Designed user interface using MVVC framework.}
-	\newline
-	{Implemented the view, controller and view model with SM override new theme screen.}
-	\newline
-	{Maintained the back-end saving override service calls.}
-}
-
-\cventry{Dec.2015 - Jun.2016}
-{6.0 Trade Blotter}
-{Javascript, Java}
-{}{}
-{
-	{Developed institutional trade detail ticket using ExtJS 6.0.}
-	\newline
-	{Establish store loading and data binding process on entire project.}
-	\newline
-	{Researched ExtJS data binding technique for cleaner code.}
-}
+% \cventry{Dec.2018 - Jun.2019}
+% {6.0 Post A Bid Wanted}
+% {Java, JavaScript, CSS}
+% {}{}
+% {
+% 	{Upgraded trader's \textbf{Bid Wanted} creation system with ExtJS 6.0 library.}
+% 	\newline
+% 	{Debugged client-side web components with new Bid Wanted view and controller.}
+% 	\newline
+% 	{Refactored server side Bid Wanted services in Java.}
+% 	\newline
+% 	{Tested the Bid Wanted scenario ensured 90\% success rate.}
+% }
 
 \renewcommand{\baselinestretch}{1.25}
-
-\cventry{Jul.2015 - Nov.2015}
-{Security Master Screen}
-{Javascript, Java}
-{}{}
-{
-	{Designed a template for security master page.}
-	\newline
-	{Styled Security Master page to be fully screen and neat aligned.}
-	\newline
-	{Studied ExtJS 3.0 library.}
-}
-
-\renewcommand{\baselinestretch}{1.25}
-
 \section{Education}
+
 \cventry{Aug.2013 - May.2015}
 {M.S. in Information Systems}
 {Courant Institute of Mathematics, NYU}
-{}{\textbf{GPA:3.75}}
+{}{GPA Top \textbf{10\%}}
 {Courses: Algorithms, Social Multiplayer Games, Open Source Tools.}
 \cventry{Sep.2009 - Jun.2013}
-{B.S. in Management Information Systems}
+{B.S. in Information Systems}
 {Renmin University of China}
 {Beijing, China}
-{}
+{GPA Top \textbf{5\%}}
 {Courses: Java, Database, Knowledge Management.}
 
 \closesection{}                   % needed to renewcommands
